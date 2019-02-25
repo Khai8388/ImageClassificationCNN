@@ -24,7 +24,8 @@ The explanation for each step or substep could be found in the code. If you are 
   
 **3. Implement the trained model**
 After training the model, you can play around with test-images that I downloaded from Google or use your own images to check if the trained image classifier actually works.
-![example](/Users/miemie/dog.png)
+
+<img src="https://github.com/Khai8388/ImageClassificationCNN/blob/master/example_result.png" height="256" width="324">
 
 
 ## Optimization algorithm
