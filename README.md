@@ -17,7 +17,7 @@ The explanation for each step or substep could be found in the code. If you are 
   - Save data to feed neural network
   
 **2. Build and train a CNN model**
-  - Load data built in step 1
+  - Load the prepared data
   - Set up CNN model
   - Train the model
   
