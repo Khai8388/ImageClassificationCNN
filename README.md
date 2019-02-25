@@ -3,7 +3,7 @@ The purpose of this repo is to give readers a clear idea of how to build and opt
 The image classifier I used here is to classify dog vs cat images.
 
 ## Gather dataset
-Before we start, the dogs-cats dataset could be downloaded from [kaggle-dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data).
+Before we start, the dogs-cats dataset could be downloaded from [kaggle-dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). After that change the DATADIR in *1_GatherLocalData.ipynb* to match with your kaggle folder name.
 
 ## Build a CNN model
 The explanation for each step or substep could be found in the code. If you are curious about CNN, please have a look [here](http://cs231n.github.io/)
