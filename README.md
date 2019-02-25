@@ -28,3 +28,6 @@ This part should be done before you carry out the step 2, to choose the best arc
 
 ## Available CNN architectures
 There are famous CNN architectures that you can try besides building your own, such as AlexNet, VGGNet, GoogLeNet or ResNet depending on the size of your dataset and the desired speed/precision of your application.
+
+## Reference
+Deep learning basics - sentdex : https://www.youtube.com/watch?v=wQ8BIBpya2k&list=PLQVvvaa0QuDfhTox0AjmQ6tvTgMBZBEXN&pbjreload=10
