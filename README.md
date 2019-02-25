@@ -23,6 +23,9 @@ The explanation for each step or substep could be found in the code. If you are 
 
   
 **3. Implement the trained model**
+After training the model, you can play around with test-images that I downloaded from Google or use your own images to check if the trained image classifier actually works.
+![example](/Users/miemie/dog.png)
+
 
 ## Optimization algorithm
 While training models for the project, to ensure that you get the best model architecture, use Tensorboard
