@@ -20,10 +20,19 @@ The explanation for each step or substep could be found in the code. If you are 
   - Load the prepared data
   - Set up CNN model
   - Train the model
+
   
 **3. Implement the trained model**
 
 ## Optimization algorithm
+While training models for the project, to ensure that you get the best model architecture, use Tensorboard
+  
+  `<tensorboard --logdir=path/to/log-directory>`
+  
+  or
+  
+  `<python -m tensorboard.main --logdir=path/to/log-directory>`
+  
 This part should be done before you carry out the step 2, to choose the best architecture for the project. It is also higly recommended to have look at [Deep Leaning course 2 and 3](https://www.coursera.org/learn/deep-neural-network/home/welcome) to understand how to get deep learning to work well and successfully build a project.
 
 ## Available CNN architectures
