@@ -47,7 +47,7 @@ While training models for the project, to ensure that you get the best model arc
   
   or
   
-  `tensorboard --logdir=path/to/log-directory --host localhosty`
+  `tensorboard --logdir=path/to/log-directory --host localhost`
   
   <img src="https://github.com/Khai8388/ImageClassificationCNN/blob/master/images/Tensorboard.PNG"  height="512" width="612">
   
