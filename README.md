@@ -10,7 +10,10 @@ You can install them by opening one Terminal (Mac/Linux) or Command Prompt (Wind
   
 
 ## Gather dataset
-Before we start, the dogs-cats dataset could be downloaded from [kaggle-dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). In the file *1_GatherLocalData.ipynb*, you can change the DATADIR path to match with your kaggle folder name.
+Before we start, the dogs-cats dataset which contains around 25,000 images of dogs and cats could be downloaded from [kaggle-dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). In the file *1_GatherLocalData.ipynb*, you can change the DATADIR path to match with your kaggle folder name.
+You can open file *.ipynb* by typing in Command: 
+
+`jupyter notebook` 
 
 ## Build a CNN model
 The explanation for each step or substep could be found in the code. If you are new to CNN, please have a look [here](http://cs231n.github.io/)
