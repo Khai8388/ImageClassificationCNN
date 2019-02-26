@@ -21,7 +21,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, Conv2D, MaxPooling2D
 from tensorflow.keras.callbacks import TensorBoard
 import pickle
-import time 
+import time
+import os
 
 directPath = os.getcwd()
 
@@ -35,7 +36,7 @@ config.gpu_options.allow_growth = True
 sess = tf.Session(config=config)
 
 # In this case a model with zero dense layer seems to be better
-# model might be better with 256 or 512 layer nodes for 1 dense layer
+# In other cases, model might work better with 256 or 512 layer nodes for 1 dense layer
 # or it just memorize more data and overfit
 dense_layers = [0, 1, 2]
 # Common layer sizes, up to the user
