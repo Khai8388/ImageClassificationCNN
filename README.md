@@ -2,8 +2,15 @@
 The purpose of this repo is to give readers a clear idea of how to build and optimise a CNN model for their own image classification applications.
 The image classifier I used here is to classify dog vs cat images.
 
+## Prerequisities
+I recommend to install [Anaconda python 3.7 version](https://www.anaconda.com/distribution/) in your computer because it supports porting for all the popular python libraries in data science and it comes with Jupyter Notebook which is an open-source web application  we will use later. There are some other python libraries we also need to install to complete setting up our working environment. 
+You can install them by opening one Terminal (Mac/Linux) or Command Prompt (Windows) and run these command lines:
+  - [Tensorflow](https://anaconda.org/conda-forge/tensorflow)
+  - [Opencv](https://anaconda.org/conda-forge/opencv)
+  
+
 ## Gather dataset
-Before we start, the dogs-cats dataset could be downloaded from [kaggle-dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). After that change the DATADIR in *1_GatherLocalData.ipynb* to match with your kaggle folder name.
+Before we start, the dogs-cats dataset could be downloaded from [kaggle-dataset](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). In the file *1_GatherLocalData.ipynb*, you can change the DATADIR path to match with your kaggle folder name.
 
 ## Build a CNN model
 The explanation for each step or substep could be found in the code. If you are new to CNN, please have a look [here](http://cs231n.github.io/)
