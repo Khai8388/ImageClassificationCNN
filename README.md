@@ -51,7 +51,7 @@ While training models for the project, to ensure that you get the best model arc
   
   <img src="https://github.com/Khai8388/ImageClassificationCNN/blob/master/images/Tensorboard.PNG"  height="512" width="612">
   
-This part should be done before you carry out the step 2, to choose the best architecture for the project. It is also higly recommended to have look at [Deep Leaning course 2 and 3](https://www.coursera.org/learn/deep-neural-network/home/welcome) to understand how to get deep learning to work well and successfully build a project.
+This part should be done before you carry out the step 2, to choose the best architecture for your CNN model. It is also higly recommended to have look at [Deep Leaning course 2 and 3](https://www.coursera.org/learn/deep-neural-network/home/welcome) to understand how to get deep learning to work well and successfully build a project.
 
 ## Available CNN architectures
 There are famous CNN architectures that you can try besides building your own, such as AlexNet, VGGNet, GoogLeNet or ResNet depending on the size of your dataset and the desired speed/precision of your application.
